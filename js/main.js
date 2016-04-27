@@ -10,3 +10,6 @@
 //     	$("#myModal").hide();
 // 	});
 // });
+$(function () {
+    $('#datetimepicker1').datetimepicker();
+});
