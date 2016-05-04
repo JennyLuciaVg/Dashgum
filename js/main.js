@@ -1,15 +1,4 @@
-/* MODAL - LOGIN */
-// $(document).ready(function() {
-// 	$("#myModal").hide();
-	
-// 	$("#openBtn").click(function() {
-// 		$("#myModal").modal(toggle);
-// 	});
-	
-// 	$("body").click(function() {
-//     	$("#myModal").hide();
-// 	});
-// });
-$(function () {
-    $('#datetimepicker1').datetimepicker();
+var myFirebaseRef = new Firebase("https://crackling-fire-4441.firebaseio.com/");
+myFirebaseRef.child("message").on("value", function(snapshot) {
+  alert(snapshot.val()); 
 });
