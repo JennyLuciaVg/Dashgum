@@ -11,7 +11,7 @@
     <title>Sistema de Gestion de Alertas</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/adventure-time-theme.css">
-    <link rel="stylesheet" href="css/adventure-time-theme-responsive.css">   
+    <link rel="stylesheet" href="css/adventure-time-theme-responsive.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -25,7 +25,7 @@
       <header class="header black-bg">
         <div class="sidebar-toggle-box">
             <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
-        </div>       
+        </div>
         <a href="dashboard.html" class="logo">
           <b class="hidden-xs">SISTEMA DE GESTION DE ALERTAS</b>
           <b class="visible-xs">SGA</b>
@@ -50,7 +50,7 @@
                 <i class="fa fa-dashboard"></i>
                 <span>Menu Principal</span>
               </a>
-            </li>           
+            </li>
             <li class="sub-menu">
               <a href="form_component.html" >
                 <i class="fa fa-cogs"></i>
@@ -62,7 +62,7 @@
                 <i class="fa fa-th"></i>
                 <span>Datos</span>
               </a>
-            </li>            
+            </li>
             <li class="sub-menu">
               <a href="gallery.html" >
                 <i class="fa fa-tasks"></i>
@@ -74,16 +74,16 @@
                 <i class="fa fa-book"></i>
                 <span>Login Page</span>
               </a>
-            </li>            
+            </li>
           </ul>
         </div>
-      </aside> 
+      </aside>
       <!--main content start-->
       <section id="main-content">
         <section class="wrapper">
           <h3><i class="fa fa-angle-right"></i> Registro de Alertas</h3>
           <div class="row">
-            
+
             <div class="col-md-12 mt">
               <div class="content-panel">
                 <table class="table table-hover">
@@ -107,18 +107,26 @@
                       <td>Accidente automovilistico</td>
                       <td>15-04-2016 <br>6.04pm</td>
                       <td>Comas</td>
-                      <td><a href="">Ver</a></td>
+                      <td><a href="" data-toggle="modal" data-target="#myModal">Ver</a></td>
                       <td>4</td>
                       <td><span class="label label-warning label-mini">En camino</span></td>
                       <td>Muy Alta</td>
                       <td>..........</td>
                       <td><a href="">Delegar</a> <a href="">Borrar</a></td>
+                      <!-- Modal -->
+                      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7807.450838110119!2d-77.0447063140082!3d-11.92418730070104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1464116524007" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                        </div>
+                      </div>
                     </tr>
                     <tr>
                       <td>Accidente automovilistico</td>
                       <td>15-04-2016 <br>6.04pm</td>
                       <td>Independencia</td>
-                      <td><a href="">Ver</a></td>
+                      <td><a href="" data-toggle="modal" data-target="#myModal">Ver</a></td>
                       <td>5</td>
                       <td><span class="label label-success label-mini">Atendido</span></td>
                       <td>Alta</td>
@@ -129,23 +137,39 @@
                       <td>Incendio</td>
                       <td>15-04-2016 <br>6.04pm</td>
                       <td>Callao</td>
-                      <td><a href="">Ver</a></td>
+                      <td><a href="" data-toggle="modal" data-target="#myModal">Ver</a></td>
                       <td>6</td>
                       <td><span class="label label-warning label-mini">En camino</span></td>
                       <td>Muy Alta</td>
                       <td>..........</td>
                       <td><a href="">Delegar</a> <a href="">Borrar</a></td>
+                      <!-- Modal -->
+                      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7807.450838110119!2d-77.0447063140082!3d-11.92418730070104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1464116524007" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                        </div>
+                      </div>
                     </tr>
                     <tr>
                       <td>Amenaza de explosivo</td>
                       <td>15-04-2016 <br>6.04pm</td>
                       <td>Los Olivos</td>
-                      <td><a href="">Ver</a></td>
+                      <td><a href="" data-toggle="modal" data-target="#myModal">Ver</a></td>
                       <td>4</td>
                       <td><span class="label label-danger label-mini">En cola</span></td>
                       <td>Alta</td>
                       <td>..........</td>
                       <td><a href="">Delegar</a> <a href="">Borrar</a></td>
+                      <!-- Modal -->
+                      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7807.450838110119!2d-77.0447063140082!3d-11.92418730070104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1464116524007" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                        </div>
+                      </div>
                     </tr>
                   </tbody>
                 </table>
